@@ -43,7 +43,7 @@ In the final task today, you are going to create a split-screen multiplayer view
 
 To begin this task, create two (or more) cars by duplicating the car object in the hierarchy. To allow the cars to be driven independently of each other, you will need to change the control axis public string variables (“Steering Axis” and “Acceleration Brake Axis”) of the Car User Control script so that they are different for each car.
 
-You can edit input settings by going to Edit > Project Settings > Input Manager. You will see that I have two inputs custom named to "LeftStick" and "Triggers". You can duplicate these or alter other inputs to allow for two cars to be controlled with one keyboard. 
+You can edit input settings by going to Edit > Project Settings > Input Manager.  You can alter other inputs to allow for two cars to be controlled with one keyboard. 
 
 Once you have multiple cars that you can control independently, create the split screen effect by: creating a third person follow camera for each car and setting its viewport to an appropriate region on the screen.
 
